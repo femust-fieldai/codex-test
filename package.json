@@ -1,0 +1,13 @@
+{
+  "name": "ros-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd app && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
